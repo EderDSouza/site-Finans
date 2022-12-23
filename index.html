@@ -26,22 +26,29 @@
               <img src="img/logo.png" alt="" width="142">
             </a>
 
-            <div class="collapse navbar-collapse">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+              <span class="navbar-toggler-icon"></span> <!--mostra o botão-->
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-principal">
               <ul class="navbar-nav ml-auto ">
                 <li class="nav-item">
-                  <a class="nav-link" href="">home</a>
+                  <a class="nav-link" href="">Home</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="">recursos</a>
+                  <a class="nav-link" href="">Recursos</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="">beneficios</a>
+                  <a class="nav-link" href="">Beneficios</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="">preços</a>
+                  <a class="nav-link" href="">Preços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-outline-light ml-4" href="">Entrar</a>
                 </li>
 
               </ul>
@@ -52,6 +59,52 @@
         </nav>
       
     </header> <!--fim Cabeçalho-->
+
+    <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex"> <!--Divide a coluna-->
+            <div class="align-self-center"> <!--Conteudo centralizado-->
+              <h1 class="display-4"> Suas Contas, Desconplicadas</h1>
+              <p>
+                Usado por mais de 1 milhão de pessoas, o Finans é uma 
+                ferramenta online que vai facilitar sua vida financeira. 
+              </p>
+
+              <form class="mt-4 mb-4" >
+                <div class="input-group input-group-lg">
+                  <input type="text" placeholder="Seu e-mail" class="form-control">
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-primary">
+                      Cadastre-se
+                    </button>
+
+                  </div>
+
+                </div>
+              </form>
+              <p>
+                Disponivel para 
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-android fa-lg"></i>
+                </a>
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-apple fa-lg"></i>
+                </a>
+              </p>
+
+
+            </div>
+            
+          </div>
+          <div class="col-md-6 d-none d-md-block"> <!-- d significa display none e block faz esconde a foto-->
+            <img src="img/capa-mulher.png" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
     
 
 
